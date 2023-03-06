@@ -22,7 +22,7 @@ export default function About() {
             </p>
           </div>
           <div className="col-sm-6">
-            <img className="about-img" src="%PUBLIC_URL%/assets/images/about.jpg" alt="KC logo"></img>
+            <img className="about-img" src="./assets/images/about.jpg" alt="KC logo"></img>
           </div>
         </div>
       </div>
