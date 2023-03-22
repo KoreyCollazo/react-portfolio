@@ -46,6 +46,14 @@ const projects = [
     github: "https://github.com/Ezmaa/Drink-Outside-The-Box",
     liveSite: "https://ezmaa.github.io/Drink-Outside-The-Box/",
   },
+  {
+    img: "./assets/images/devMatch.jpg",
+    alt: "DevMatch",
+    caption:
+      "Dating app for software developers built with Mern Stack",
+    github: "https://github.com/KoreyCollazo/devMatch",
+    liveSite: "https://devmatch.herokuapp.com",
+  }
 ];
 
 module.exports = projects
