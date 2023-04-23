@@ -14,6 +14,13 @@ html {
   background-color: rgb(57, 62, 65);
 }
 
+.container {
+  min-height:100%;
+  position:relative;
+  margin-left: 0%;
+  margin-right: -50%;
+}
+
 header {
   position: relative;
 }
@@ -121,6 +128,7 @@ header {
 .main {
   margin-top: 150px;
   margin-bottom:250px;
+  height:100%;
 }
 
 p {
@@ -312,7 +320,9 @@ footer {
   height: 120px;
   padding-top: 30px;
   width: 100%;
-  margin-top: auto;
+  /* margin-top: auto; */
+  position:absolute;
+  bottom:0;
 }
 
 

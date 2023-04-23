@@ -58,7 +58,7 @@ export default function PortfolioContainer() {
         handlePageChange={handlePageChange}
       ></Header>
       {renderPage()}
-      <Footer></Footer>
+      <Footer class='footer'></Footer>
     </div>
   );
 }

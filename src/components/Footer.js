@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="fixed-bottom">
+    <footer>
       <div className="github-wrapper">
         <a
           href="https://github.com/KoreyCollazo"
