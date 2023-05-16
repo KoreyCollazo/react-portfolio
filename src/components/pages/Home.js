@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home({ handlePageChange }) {
   return (
-    <div className="main" id="main-container">
+    <main id="main-container">
       <p>Welcome, my name is</p>
       <h1 className="animate__animated animate__slower animate__fadeIn">
         Korey Collazo
@@ -24,6 +24,6 @@ export default function Home({ handlePageChange }) {
           View Work &rarr;
         </button>
       </div>
-    </div>
+    </main>
   );
 }

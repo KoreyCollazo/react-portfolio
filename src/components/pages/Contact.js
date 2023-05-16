@@ -34,7 +34,7 @@ export default function Contact() {
   };
 
   return (
-    <div
+    <main
       id="main-container"
       className="animate__animated animate__fadeInUp animate__slower"
     >
@@ -80,6 +80,6 @@ export default function Contact() {
           Submit
         </button>
       </form>
-    </div>
+    </main>
   );
 }

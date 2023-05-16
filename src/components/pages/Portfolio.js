@@ -3,8 +3,8 @@ import Project from "../Project";
 
 export default function Portfolio() {
   return (
-    <div
-      id="main-container"
+    <main
+      id="portfolio"
       className="animate__animated animate__fadeInUp animate__slower"
     >
       <div className="container animate__animated animate__fadeInUp animate__slower">
@@ -13,6 +13,6 @@ export default function Portfolio() {
           <Project />
         </div>
       </div>
-    </div>
+    </main>
   );
 }

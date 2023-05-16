@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <div>
     <ul className="nav nav-tabs">
       <div className=' animate__animated animate__backInDown'>
-        <li className="nav-item animate__animated animate__slower animate__fadeIn">
+        <li className="nav-item animate__animated animate__fadeIn">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -16,8 +16,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-1s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-1s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__backInDown'>
+        <li className="nav-item animate__animated animate__fadeIn">
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
@@ -27,8 +27,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-2s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-2s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__backInDown'>
+        <li className="nav-item animate__animated animate__fadeIn">
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
@@ -38,8 +38,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-3s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-3s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__backInDown'>
+        <li className="nav-item animate__animated animate__fadeIn">
           <a
             href="#Resume"
             onClick={() => handlePageChange('Resume')}
@@ -49,8 +49,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-4s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-4s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__backInDown'>
+        <li className="nav-item animate__animated animate__fadeIn">
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
