@@ -52,13 +52,13 @@ export default function PortfolioContainer() {
   };
 
   return (
-    <div>
+    <div className='body-container'>
       <Header
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       ></Header>
       {renderPage()}
-      <Footer class='footer'></Footer>
+      <Footer className='footer'></Footer>
     </div>
   );
 }
