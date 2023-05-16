@@ -41,9 +41,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       <div className=' animate__animated animate__backInDown'>
         <li className="nav-item animate__animated animate__fadeIn">
           <a
-            href="#Resume"
-            onClick={() => handlePageChange('Resume')}
+            href="./react-portfolio/assets/Resume-Korey-Collazo.pdf"
             className={currentPage === 'Resume' ? 'nav-link active-tab' : 'nav-link'}
+            download
           >
             Resume
           </a>
