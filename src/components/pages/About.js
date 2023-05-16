@@ -13,7 +13,7 @@ export default function About() {
               tools to improve my skills and stay up-to-date with the latest
               trends in web development.
             </p>
-            <h2>Proficiencies</h2>
+            <h2 className="pro-title">Proficiencies</h2>
             <div className="row pro-lists">
           <div className="col-sm-6">
             <p className="pro-li-title">Front-end</p>

@@ -41,7 +41,7 @@ export default function Header({ currentPage, handlePageChange }) {
 
   return (
     <header>
-      <img className="kc-logo" src="./assets/images/icon.png" alt="KC logo"></img>
+      <img className="kc-logo" src="./react-portfolio/assets/images/icon.png" alt="KC logo"></img>
       {renderNav()}
     </header>
   );
