@@ -17,8 +17,6 @@ html {
 .container {
   min-height:100%;
   position:relative;
-  margin-left: 0%;
-  margin-right: -50%;
 }
 
 header {
@@ -152,6 +150,13 @@ h2 {
   text-align: center;
   color: rgb(233, 79, 55);
   font-size: 40px;
+}
+
+.pro-title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  filter: drop-shadow(1px 10px 20px #a8a8a8);
 }
 
 h3 {
