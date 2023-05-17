@@ -8,7 +8,7 @@ export default function Portfolio() {
       className="animate__animated animate__fadeInUp animate__slower"
     >
       <div className="container animate__animated animate__fadeInUp animate__slower">
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
         <div className="row">
           <Project />
         </div>

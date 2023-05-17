@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <main
-      id="main-container"
+      id="contact-me"
       className="animate__animated animate__fadeInUp animate__slower"
     >
       <h1>Contact Me</h1>

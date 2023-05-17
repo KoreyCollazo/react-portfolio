@@ -34,7 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active-tab' : 'nav-link'}
           >
-            Portfolio
+            Projects
           </a>
         </li>
       </div>
