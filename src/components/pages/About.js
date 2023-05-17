@@ -20,6 +20,7 @@ export default function About() {
             <ul>
               <li>Html</li>
               <li>CSS</li>
+              <li>Javascript</li>
               <li>JQuery</li>
               <li>Responsive Design</li>
               <li>Bootstrap</li>
@@ -31,7 +32,7 @@ export default function About() {
             <p className="pro-li-title">Back-end</p>
             <ul>
               <li>APIs</li>
-              <li>Node</li>
+              <li>Node.js</li>
               <li>Express</li>
               <li>MySQL, Sequelize</li>
               <li>MongoDB, Mongoose</li>

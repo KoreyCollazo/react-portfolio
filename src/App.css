@@ -126,6 +126,10 @@ main {
   margin-bottom: 50px;
 }
 
+#contact-me {
+  margin-top: 0;
+}
+
 p {
   text-align: center;
   color: rgb(233, 79, 55);
@@ -153,6 +157,7 @@ h2 {
 }
 
 .pro-title {
+  padding-top: 80px;
   text-align: center;
   color: white;
   font-size: 40px;
@@ -235,7 +240,7 @@ span {
 
 .row {
   margin-top: 30px;
-  margin-bottom: 200px;
+  
 }
 
 .img-container {

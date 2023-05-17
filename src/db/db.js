@@ -16,28 +16,28 @@ const projects = [
     liveSite: "https://ezmaa.github.io/Drink-Outside-The-Box/",
   },
   {
-    img: "./react-portfolio/assets/images/placeholder.jpg",
-    alt: "Drink-Outside-The-Box",
+    img: "./react-portfolio/assets/images/textEditorPWA.png",
+    alt: "Text-editor-PWA",
     caption:
-      "A tool using third party APIs to save jokes and cocktail recipes.",
-    github: "https://github.com/Ezmaa/Drink-Outside-The-Box",
-    liveSite: "https://ezmaa.github.io/Drink-Outside-The-Box/",
+      "A text editor progressive web app.",
+    github: "https://github.com/KoreyCollazo/text-editor-PWA-",
+    liveSite: "https://jate-pwa-kc.herokuapp.com",
   },
   {
-      img: "./react-portfolio/assets/images/placeholder.jpg",
-      alt: "Drink-Outside-The-Box",
+      img: "./react-portfolio/assets/images/weatherDashboard.png",
+      alt: "Weather-Dashboard",
       caption:
-        "A tool using third party APIs to save jokes and cocktail recipes.",
-      github: "https://github.com/Ezmaa/Drink-Outside-The-Box",
-      liveSite: "https://ezmaa.github.io/Drink-Outside-The-Box/",
+        "A weather dashboard using third party APIs to display a forecast with persistent search history.",
+      github: "https://github.com/KoreyCollazo/weather-dashboard",
+      liveSite: "https://koreycollazo.github.io/weather-dashboard/",
   },
   {
-    img: "./react-portfolio/assets/images/placeholder.jpg",
+    img: "./react-portfolio/assets/images/eCommerceBackend.png",
     alt: "Drink-Outside-The-Box",
     caption:
-      "A tool using third party APIs to save jokes and cocktail recipes.",
-    github: "https://github.com/Ezmaa/Drink-Outside-The-Box",
-    liveSite: "https://ezmaa.github.io/Drink-Outside-The-Box/",
+      "An E-commerce Back End connected to an SQL database.",
+    github: "https://github.com/KoreyCollazo/e-commerce-backend",
+    liveSite: "https://drive.google.com/file/d/1zGOKhqIHVuXB2EbLxYarrYZMLCvmd9Le/view",
   },
   {
     img: "./react-portfolio/assets/images/devMatch.png",
