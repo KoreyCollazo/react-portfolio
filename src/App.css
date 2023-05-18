@@ -27,13 +27,15 @@ header {
   width: 300px;
   height: auto;
   position: absolute;
+  top: -8px;
+  left: -52px;
 }
 
 .nav {
   justify-content: end;
   width: auto;
   padding-top: 15px;
-  padding-right: 5px;
+  padding-right: 17px;
 }
 
 .nav-tabs {
@@ -46,14 +48,14 @@ header {
 }
 
 .nav-link:hover {
-  color: #44BBA4;
+  color: #82e1cf;
   border-color: rgb(57, 62, 65);
   border: none;
 }
 
-.nav-link:visited {
+/* .nav-link:visited {
   color: inherit;
-}
+} */
 
 .active-tab {
   color: #44BBA4 !important;
@@ -128,12 +130,17 @@ main {
 
 #contact-me {
   margin-top: 0;
+  margin-bottom: 193px;
 }
 
 p {
   text-align: center;
   color: rgb(233, 79, 55);
   font-size: 25px;
+}
+
+main .container .row .col-sm-6 p {
+  margin-top: 10px;
 }
 
 .home-caption {
@@ -157,7 +164,7 @@ h2 {
 }
 
 .pro-title {
-  padding-top: 80px;
+  padding-top: 70px;
   text-align: center;
   color: white;
   font-size: 40px;
@@ -188,10 +195,6 @@ h3 {
   color: rgb(246, 247, 235);
 }
 
-.github-wrapper {
-  
-}
-
 i {
   font-size: 50px;
   color: white;
@@ -203,7 +206,7 @@ i:hover {
 }
 
 span {
-  margin: 10px;
+  margin: 16px;
 }
 
 #portfolio {
@@ -243,6 +246,11 @@ span {
   
 }
 
+main .container .row .col-sm-6 {
+  padding-right: calc(var(--bs-gutter-x) * .94);
+  padding-left: calc(var(--bs-gutter-x) * .94);
+}
+
 .img-container {
   position: relative;
   height: fit-content;
@@ -274,15 +282,6 @@ span {
 
 .pro-li-title{
   font-size: 30px;
-}
-
-.pro-lists {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-main .pro-lists {
-  margin-bottom: 100px;
 }
 
 ul{
@@ -360,5 +359,10 @@ form {
   padding-right: 10%;
   padding-left: 10%;
 }
+
+main {
+  min-height: calc(100vh - 375px);
+}
+
 }
 

@@ -25,7 +25,7 @@ export default function Contact() {
     } else {
       setError("");
       console.log("Form submitted:", { email, name, message });
-      alert("Your message has been sent!");
+      alert("Thanks for reaching out, speak to you soon!");
       setEmail("");
       setName("");
       setMessage("");
@@ -36,7 +36,7 @@ export default function Contact() {
   return (
     <main
       id="contact-me"
-      className="animate__animated animate__fadeInUp animate__slower"
+      className="animate__animated animate__fadeInUp"
     >
       <h1>Contact Me</h1>
       <div className="contact-links">

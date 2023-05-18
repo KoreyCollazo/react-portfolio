@@ -55,16 +55,16 @@ function NavTabsMobile({ currentPage, handlePageChange }) {
             onClick={() => mobileNav('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active-tab' : 'nav-link'}
           >
-            Portfolio
+            Projects
           </a>
         </li>
       </div>
       <div className=' animate__animated animate__delay-3s animate__backInDown'>
         <li className="nav-item animate__animated animate__delay-3s animate__slower animate__fadeIn">
           <a
-            href="#Resume"
-            onClick={() => mobileNav('Resume')}
+            href="./react-portfolio/assets/Resume-Korey-Collazo.pdf"
             className={currentPage === 'Resume' ? 'nav-link active-tab' : 'nav-link'}
+            download
           >
             Resume
           </a>

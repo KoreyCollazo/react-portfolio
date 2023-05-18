@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <main id="about">
-      <div className="container animate__animated animate__fadeInUp animate__slower">
+      <div className="container animate__animated animate__fadeInUp">
         <div className="row">
           <div className="col-sm-6">
             <h1>About Me</h1>
