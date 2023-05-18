@@ -27,7 +27,7 @@ const projects = [
       img: "./react-portfolio/assets/images/weatherDashboard.png",
       alt: "Weather-Dashboard",
       caption:
-        "A weather dashboard using third party APIs to display a forecast with persistent search history.",
+        "A weather dashboard using third party APIs to display a forecast.",
       github: "https://github.com/KoreyCollazo/weather-dashboard",
       liveSite: "https://koreycollazo.github.io/weather-dashboard/",
   },
