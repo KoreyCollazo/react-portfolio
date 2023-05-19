@@ -6,7 +6,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // email regex pattern
     if (!emailPattern.test(email)) {
@@ -24,11 +24,19 @@ export default function Contact() {
       return;
     } else {
       setError("");
-      console.log("Form submitted:", { email, name, message });
-      alert("Thanks for reaching out, speak to you soon!");
-      setEmail("");
-      setName("");
-      setMessage("");
+      console.log({name, email, message})
+      console.log(JSON.stringify({ name, email, message }))
+      const response = await fetch('/', {
+        method: 'POST',
+        body: JSON.stringify({ name, email, message }),
+        headers: { 'Content-Type': 'application/json' },
+      });
+      if (response.ok) {
+        alert("Thanks for reaching out, speak to you soon!");
+        setEmail("");
+        setName("");
+        setMessage("");
+      }
       return;
     }
   };
