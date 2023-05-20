@@ -1,7 +1,8 @@
 {
-  "name": "react-portfolio",
+  "name": "client",
   "version": "0.1.0",
   "description": "",
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

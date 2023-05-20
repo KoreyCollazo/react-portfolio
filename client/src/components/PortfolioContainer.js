@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
 
   const handlePageChange = async (page) => {
     const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-    const el = document.getElementById("main-container"),
+    const el = document.querySelector("main"),
       classList = "classList" in el;
     for (var i = 0; i < el.children.length; i++) {
       var child = el.children[i];
@@ -47,7 +47,7 @@ export default function PortfolioContainer() {
         }
       }
     }
-    await delay(2400);
+    await delay(1500);
     setCurrentPage(page);
   };
 
