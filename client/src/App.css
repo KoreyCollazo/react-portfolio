@@ -347,6 +347,12 @@ footer {
 }
 
 
+@media (max-width: 674px) {
+  main {
+    min-height: calc(100vh - 575px);
+  }
+}
+
 
 @media (max-width: 991px) {
   
@@ -361,8 +367,13 @@ form {
 }
 
 main {
-  min-height: calc(100vh - 375px);
+  min-height: calc(100vh - 345px);
 }
 
 }
 
+@media (max-width: 772px) {
+  main {
+    min-height: calc(100vh - 378px);
+  }
+}

@@ -27,7 +27,7 @@ function NavTabsMobile({ currentPage, handlePageChange }) {
       </div>
       <ul className="nav flex-column">
       <div className=' animate__animated animate__backInDown'>
-        <li className="nav-item animate__animated animate__slower animate__fadeIn">
+        <li className="nav-item animate__animated animate__fadeIn">
           <a
             href="#home"
             onClick={() => mobileNav('Home')}
@@ -37,8 +37,8 @@ function NavTabsMobile({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-1s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-1s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__backInDown'>
+        <li className="nav-item animate__animated animate__slower animate__fadeIn">
           <a
             href="#about"
             onClick={() => mobileNav('About')}
@@ -48,8 +48,8 @@ function NavTabsMobile({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-2s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-2s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__delay-1s animate__backInDown'>
+        <li className="nav-item animate__animated animate__delay-1s animate__slower animate__fadeIn">
           <a
             href="#portfolio"
             onClick={() => mobileNav('Portfolio')}
@@ -59,8 +59,8 @@ function NavTabsMobile({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-3s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-3s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__delay-2s animate__backInDown'>
+        <li className="nav-item animate__animated animate__delay-2s animate__slower animate__fadeIn">
           <a
             href="./react-portfolio/assets/Resume-Korey-Collazo.pdf"
             className={currentPage === 'Resume' ? 'nav-link active-tab' : 'nav-link'}
@@ -70,8 +70,8 @@ function NavTabsMobile({ currentPage, handlePageChange }) {
           </a>
         </li>
       </div>
-      <div className=' animate__animated animate__delay-4s animate__backInDown'>
-        <li className="nav-item animate__animated animate__delay-4s animate__slower animate__fadeIn">
+      <div className=' animate__animated animate__delay-3s animate__backInDown'>
+        <li className="nav-item animate__animated animate__delay-3s animate__slower animate__fadeIn">
           <a
             href="#contact"
             onClick={() => mobileNav('Contact')}

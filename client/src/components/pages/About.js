@@ -45,7 +45,7 @@ export default function About() {
           <div className="col-sm-6">
             <img
               className="about-img"
-              src="./react-portfolio/assets/images/about.jpg"
+              src="./assets/images/about.jpg"
               alt="KC logo"
             ></img>
           </div>

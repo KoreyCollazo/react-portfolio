@@ -24,20 +24,20 @@ export default function Contact() {
       return;
     } else {
       setError("");
-      console.log({name, email, message})
-      console.log(JSON.stringify({ name, email, message }))
+      
       const response = await fetch('/', {
         method: 'POST',
         body: JSON.stringify({ name, email, message }),
         headers: { 'Content-Type': 'application/json' },
       });
+      alert("Thanks for reaching out, speak to you soon!");
       if (response.ok) {
-        alert("Thanks for reaching out, speak to you soon!");
         setEmail("");
         setName("");
         setMessage("");
+      } else {
+        alert(response.statusText);
       }
-      return;
     }
   };
 
